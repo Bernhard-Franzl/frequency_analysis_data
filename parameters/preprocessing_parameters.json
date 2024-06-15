@@ -1,0 +1,29 @@
+{   
+    "filtering_params":{
+        "discard_samples":true,
+        "apply_filter":true,
+        "filter_mode": "time_window",
+        "k":2,
+        "nm":3,
+        "ns":1,
+        "s":2,
+        "lb_in":4,
+        "lb_out":3,
+        "handle_5":true,
+        "handle_6":false
+    },
+    "handle_56_params":{
+        "k":3,
+        "m":1,
+        "s":3,
+        "ns":2,
+        "nm":4
+    },
+    "signal_params":{
+        "prediction_mode":"max",
+        "m_before":1,
+        "m_after":5,
+        "part_mode":"median",
+        "max_mean_cutoff":0.3
+    }
+}
